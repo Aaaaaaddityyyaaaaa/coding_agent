@@ -1,0 +1,20 @@
+langchain_community
+langchain_core
+langchain_groq
+langsmith
+pydantic
+python-dotenv
+streamlit
+FastApi
+--extra-index-url https://pytorch.org
+torch==2.2.1
+torchvision==0.17.1
+torchaudio==2.2.1
+PEFT
+Transformers
+Datasets
+bitsandbytes
+Accelerate
+PyMuPDF
+trl
+vllm

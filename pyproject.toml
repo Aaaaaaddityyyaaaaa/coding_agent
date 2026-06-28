@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "interview_llm"
+version = "0.1.0"
+description = "Hands-free agentic coding assistant"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where   = ["."]
+include = ["hands_free_coding_tools*"]
+
+[tool.setuptools]
+py-modules = [
+    "state",
+    "AgentGraph",
+    "planner_node",
+    "new_project_nodes",
+    "modify_code_base_nodes",
+    "explain_node",
+    "backend",
+    "frontend",
+]

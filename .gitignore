@@ -1,0 +1,9 @@
+.env
+*.pdf
+*.pyc
+/chroma
+.interview_llm
+__pycache__
+/uploaded_projects
+/qwen_coder_base
+/interview_llm.egg-info
